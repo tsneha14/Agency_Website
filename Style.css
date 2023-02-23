@@ -58,7 +58,7 @@ header a:hover {
 #showcase {
     min-height: 400px;
     padding-top: 20px;
-    margin-top: 50px;
+    margin-top: 0px;
     background: url('./images/showcase.jpg');
     background-repeat: no-repeat;
     background-position: 0 -500px;
@@ -111,13 +111,33 @@ footer p {
 
 aside#sidebar {
     float: right;
-    width: 40%;
+    width: 35%;
     margin-top: 10px;
 }
 
 article#main-col {
     float: left;
+    width: 55%;
+}
+
+aside#sidebar1 {
+    float: right;
+    width: 35%;
+    margin-top: 10px;
+}
+
+article#main-col1 {
+    float: left;
     width: 65%;
+    margin-right: auto;
+}
+
+.dark1 {
+    padding: 15px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 40px;
 }
 
 .dark {
@@ -130,19 +150,21 @@ article#main-col {
 
 #primary .box-mode {
     font-size: 13px;
-    width: 60%;
+    width: 65%;
     border: solid 1px grey;
     padding: 10px;
     margin-bottom: 10px;
     background-color: lightgrey;
+    margin-right: 10px;
 }
 
 #box-mode3 {
     font-size: 13px;
-    width: 60%;
+    width: 65%;
     border: solid 1px grey;
     padding: 10px;
     margin-bottom: 90px;
+    margin-right: 10px;
     background-color: lightgrey;
 }
 
@@ -185,9 +207,11 @@ article#main-col {
     header nav,
     #boxes .box,
     article#main-col,
+    article#main-col1,
     aside#sidebar,
     #primary .box-mode,
-    #box-mode3 {
+    #box-mode3,
+    aside#sidebar1 {
         float: none;
         text-align: center;
         width: 100%;
@@ -195,6 +219,11 @@ article#main-col {
 
     aside#sidebar {
         margin-bottom: 120px;
+    }
+
+    aside#sidebar1 {
+        margin-bottom: 120px;
+        margin-left: 30px;
     }
 
     #showcase h1 {
